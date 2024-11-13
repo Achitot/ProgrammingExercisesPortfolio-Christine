@@ -4,4 +4,4 @@ search = input("Enter which name you are looking for: ").capitalize()
 if search in names:
     print(f"{search} is in the list.")
 else:
-    print(f"{search}is not in the list.")
+    print(f"{search} is not in the list.")
