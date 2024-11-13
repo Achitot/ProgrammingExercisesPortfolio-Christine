@@ -13,9 +13,8 @@ calendar = {
     12:"31"
 }
 year = int(input("Enter the year: "))
- #leap year = year/4= 0 
+ #leap year is year/4 and year/400 = 0
  #except for years that are exactly divisible by 100 
- #year/400"
 
 if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
     calendar[2] = "29"
